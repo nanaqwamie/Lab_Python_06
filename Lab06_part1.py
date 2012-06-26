@@ -83,7 +83,7 @@ def highest_scorer(player_stats):
     player_name=0
     for highest in player_scores:
         print player_scores[highest]>temp_again
-        temp_again+=player_scores[highest]
+        temp_again=player_scores[highest]
         player_name=highest
     return(temp_again,player_name)
 
